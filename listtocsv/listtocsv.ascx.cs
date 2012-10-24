@@ -96,7 +96,7 @@
 
         static private DataTable SqlReaderToDataTable(SqlDataReader rdr)
         {
-            DataTable dt = new DataTable("hdc_customTable");
+            DataTable dt = new DataTable("list_table");
             DataRow row;
             int i;
             for (i = 0; i < rdr.FieldCount; i++)
